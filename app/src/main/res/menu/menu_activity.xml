@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/bar"
+        android:icon="@drawable/ic_bar_chart"
+        app:showAsAction="always"
+        android:title="Bar"/>
+
+    <item
+        android:id="@+id/refresh"
+        android:icon="@drawable/ic_refresh_"
+        app:showAsAction="always"
+        android:title="Bar"/>
+
+    <item
+        android:id="@+id/box"
+        android:icon="@drawable/ic_baseline_more_vert_24"
+        app:showAsAction="always"
+        android:title="Bar"/>
+
+    <item
+        android:checkable="true"
+        android:title="Prueba1"/>
+
+    <item
+        android:checkable="true"
+        android:title="Prueba2"/>
+
+    <item
+        android:checkable="true"
+        android:title="Prueba3"/>
+
+    <item
+        android:checkable="true"
+        android:checked="true"
+        android:title="Mostra consumo"/>
+
+    <item android:title="seccion">
+        <menu>
+            <item android:title="Opcion 1"/>
+            <item android:title="Opcion 2"/>
+            <item android:title="Opcion 3"/>
+            <item android:title="Opcion 4"/>
+        </menu>
+    </item>
+
+
+
+
+
+
+
+</menu>
